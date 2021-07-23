@@ -14,3 +14,23 @@ environment. Again "Karabiner-Elements" can help.
 I recommend the following complex modifications:
 * "PC-Style Shortcuts" -> "PC-Style Home/End"
 * "Finder" -> "Use Return as Open and Use Fn+Return as Rename"
+
+
+
+
+# Arabic phonetic layout for german keyboards for X11
+
+## Install
+cp X11/ara_phonetic_ger /usr/share/X11/xkb/symbols/
+
+Add the following to "/usr/share/X11/xkb/rules/evdev.xml" just before "</layoutList>".
+<layout>
+      <configItem>
+        <name>ara_phonetic_ger</name>
+        <!-- Keyboard indicator for Arabic layouts -->
+        <shortDescription>ar</shortDescription>
+        <description>Arabic (Phonetic for German keyboards)</description>
+      </configItem>
+    </layout>
+    
+logout and login again
