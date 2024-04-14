@@ -22,7 +22,7 @@ xkb_symbols "basic"
 	key <AD10> {  [	Arabic_sukun,			Arabic_shadda,				NoSymbol,				NoSymbol ]};
 	key <AD11> {  [	Arabic_damma,			Arabic_dammatan,			NoSymbol,				NoSymbol ]};
 
-	key <AC01> {  [	Arabic_alef,			Arabic_hamzaonalef,			Arabic_hamzaunderalef,			NoSymbol ]};
+	key <AC01> {  [	Arabic_alef,			Arabic_hamzaonalef,			Arabic_hamzaunderalef,			Arabic_maddaonalef ]};
 	key <AC02> {  [	Arabic_seen,			Arabic_sad,				NoSymbol,				NoSymbol ]};
 	key <AC03> {  [	Arabic_dal,			Arabic_dad,				NoSymbol,				NoSymbol ]};
 	key <AC04> {  [	Arabic_feh,			NoSymbol,				NoSymbol,				NoSymbol ]};
