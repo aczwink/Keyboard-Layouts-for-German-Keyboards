@@ -7,7 +7,7 @@ xkb_symbols "basic"
 	name[Group1]= "Arabic (Phonetic for German keyboards)";
 	include       "ara(basic)"
 	
-	//				Normal					Shifted,				AltGred,				Shifted+AltGred
+	//		Normal			        Shifted,				AltGred,				Shifted+AltGred
 	key <AE11> {  [	NoSymbol,			Arabic_question_mark,			NoSymbol,				NoSymbol ]};
 	
 	key <AD01> {  [	Arabic_qaf,			NoSymbol,				NoSymbol,				NoSymbol ]};
@@ -41,4 +41,6 @@ xkb_symbols "basic"
 	key <AB05> {  [	Arabic_beh,			NoSymbol,				NoSymbol,				NoSymbol ]};
 	key <AB06> {  [	Arabic_noon,			NoSymbol,   				NoSymbol,				NoSymbol ]};
 	key <AB07> {  [	Arabic_meem,			NoSymbol,				NoSymbol,				NoSymbol ]};
+	key <AB08> {  [ Arabic_comma,                   NoSymbol,                               NoSymbol,                               NoSymbol ]};
+	key <AB09> {  [ period,                         NoSymbol,                               NoSymbol,                               NoSymbol ]};
 };
