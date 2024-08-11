@@ -25,12 +25,22 @@ cp X11/ara_phonetic_ger /usr/share/X11/xkb/symbols/
 
 Add the following to "/usr/share/X11/xkb/rules/evdev.xml" just before "</layoutList>".
 <layout>
-      <configItem>
-        <name>ara_phonetic_ger</name>
-        <!-- Keyboard indicator for Arabic layouts -->
-        <shortDescription>ar</shortDescription>
-        <description>Arabic (Phonetic for German keyboards)</description>
-      </configItem>
-    </layout>
+  <configItem>
+    <name>ara_phonetic_ger</name>
+    <!-- Keyboard indicator for Arabic layouts -->
+    <shortDescription>ar</shortDescription>
+    <description>Arabic (Phonetic for German keyboards)</description>
+  </configItem>
+</layout>
+
+Or simply execute:
+sed --in-place 's/<\/layoutList>/<layout> \
+  <configItem> \
+    <name>ara_phonetic_ger<\/name> \
+    <!-- Keyboard indicator for Arabic layouts --> \
+    <shortDescription>ar<\/shortDescription> \
+    <description>Arabic (Phonetic for German keyboards)<\/description> \
+  <\/configItem> \
+<\/layout><\/layoutList>/' /usr/share/X11/xkb/rules/evdev.xml
     
 logout and login again

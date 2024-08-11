@@ -8,6 +8,7 @@ xkb_symbols "basic"
 	include       "ara(basic)"
 	
 	//		Normal			        Shifted,				AltGred,				Shifted+AltGred
+	key <AE02> {  [ 2,                              quotedbl,                               NoSymbol,                               NoSymbol ]};
 	key <AE11> {  [	NoSymbol,			Arabic_question_mark,			NoSymbol,				NoSymbol ]};
 	
 	key <AD01> {  [	Arabic_qaf,			NoSymbol,				NoSymbol,				NoSymbol ]};
