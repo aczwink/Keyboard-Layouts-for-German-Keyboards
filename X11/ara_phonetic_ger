@@ -44,4 +44,5 @@ xkb_symbols "basic"
 	key <AB07> {  [	Arabic_meem,			NoSymbol,				NoSymbol,				NoSymbol ]};
 	key <AB08> {  [ Arabic_comma,                   NoSymbol,                               NoSymbol,                               NoSymbol ]};
 	key <AB09> {  [ period,                         NoSymbol,                               NoSymbol,                               NoSymbol ]};
+	key <AB10> {  [ minus,				NoSymbol,                               NoSymbol,                               NoSymbol ]};
 };
